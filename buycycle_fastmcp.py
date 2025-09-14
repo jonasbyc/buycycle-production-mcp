@@ -333,6 +333,9 @@ Status: {'Complete' if data['is_complete'] else 'In Progress'}
 
     return "Error calculating progress"
 
+# Create HTTP app for AWS Lambda Web Adapter (FastMCP Cloud)
+app = mcp.streamable_http_app()
+
 if __name__ == "__main__":
-    # For FastMCP Cloud, use default STDIO transport - the platform will handle HTTP conversion
+    # For local testing only
     mcp.run(transport="stdio")

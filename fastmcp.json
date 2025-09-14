@@ -1,6 +1,6 @@
 {
   "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/v1.json",
-  "app": "buycycle_fastmcp:mcp",
+  "app": "buycycle_fastmcp:app",
   "environment": {
     "type": "uv",
     "python": ">=3.10",
