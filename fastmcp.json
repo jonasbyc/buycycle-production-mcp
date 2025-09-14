@@ -7,7 +7,7 @@
   "environment": {
     "type": "uv",
     "python": ">=3.10",
-    "dependencies": ["mcp>=1.0.0"]
+    "dependencies": ["fastmcp>=0.2.0"]
   },
   "deployment": {
     "transport": "stdio",
