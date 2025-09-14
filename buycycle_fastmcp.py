@@ -52,14 +52,22 @@ def load_bike_data():
         logger.error(f"Failed to load data: {e}")
         raise
 
-# Load data when module is imported
-load_bike_data()
+# Data will be loaded lazily when first tool is called
+_data_loaded = False
+
+def ensure_data_loaded():
+    """Ensure data is loaded before accessing it."""
+    global _data_loaded
+    if not _data_loaded:
+        load_bike_data()
+        _data_loaded = True
 
 # STEP 1 TOOLS: Bike Type, Brand, and Model Selection
 
 @mcp.tool()
 def list_bike_types() -> dict:
     """Get all available bike types with descriptions."""
+    ensure_data_loaded()
     bike_types = []
     for type_id, type_info in bike_data["bike_types"].items():
         bike_types.append({
@@ -80,6 +88,7 @@ def list_bike_types() -> dict:
 @mcp.tool()
 def list_brands(limit: int = 20) -> dict:
     """Get available bike brands with optional limit."""
+    ensure_data_loaded()
     brands = []
     for brand_id, brand_info in list(bike_data["brands"].items())[:limit]:
         brands.append({
