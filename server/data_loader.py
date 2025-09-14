@@ -42,6 +42,32 @@ class DataLoader:
         logger.info(f"Data loading completed in {end_time - start_time:.3f}s")
         self._loaded = True
 
+    async def load_all_optimized(self) -> None:
+        """Load all optimized data files into memory cache."""
+        if self._loaded:
+            return
+
+        logger.info("Loading all optimized data files...")
+        start_time = asyncio.get_event_loop().time()
+
+        # Load all data files concurrently
+        load_tasks = [
+            self._load_file("enhanced_bike_types.json", "bike_types"),
+            self._load_file("optimized_brands.json", "brands"),
+            self._load_file("models_by_brand.json", "models_by_brand"),
+            self._load_file("conditional_fields.json", "conditional_fields"),
+            self._load_file("step2_details.json", "step2_details"),
+            self._load_file("enhanced_countries.json", "countries"),
+            self._load_file("enhanced_components.json", "components"),
+            self._load_file("currencies.json", "currencies"),
+        ]
+
+        await asyncio.gather(*load_tasks)
+
+        end_time = asyncio.get_event_loop().time()
+        logger.info(f"Optimized data loading completed in {end_time - start_time:.3f}s")
+        self._loaded = True
+
     async def _load_file(self, filename: str, cache_key: str) -> None:
         """Load a single JSON file."""
         file_path = self.data_dir / filename

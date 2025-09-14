@@ -1,16 +1,9 @@
 {
   "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/v1.json",
-  "source": {
-    "path": "buycycle_production_mcp.py",
-    "entrypoint": "server"
-  },
+  "app": "fastmcp_server:app",
   "environment": {
     "type": "uv",
     "python": ">=3.10",
     "dependencies": ["fastmcp>=0.2.0"]
-  },
-  "deployment": {
-    "transport": "stdio",
-    "log_level": "INFO"
   }
 }
