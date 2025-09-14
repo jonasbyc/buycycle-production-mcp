@@ -1,0 +1,50 @@
+[
+            {
+                "id": 56,
+                "code": "#111827",
+                "type": "color",
+                "name": "Black"
+            },
+            {
+                "id": 57,
+                "code": "#FFFFFF",
+                "type": "color",
+                "name": "White"
+            },
+            {
+                "id": 58,
+                "code": "#D1D5DB",
+                "type": "color",
+                "name": "Gray"
+            },
+            {
+                "id": 59,
+                "code": "#EF4444",
+                "type": "color",
+                "name": "Red"
+            },
+            {
+                "id": 60,
+                "code": "#80BE70",
+                "type": "color",
+                "name": "Green"
+            },
+            {
+                "id": 61,
+                "code": "#F59E0B",
+                "type": "color",
+                "name": "Orange"
+            },
+            {
+                "id": 62,
+                "code": "#3B82F6",
+                "type": "color",
+                "name": "Blue"
+            },
+            {
+                "id": 63,
+                "code": "#9A2DF0",
+                "type": "color",
+                "name": "Purple"
+            }
+        ]

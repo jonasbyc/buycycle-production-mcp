@@ -1,0 +1,1269 @@
+[
+  {
+    "id": 17,
+    "name": "Shimano 105",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Shimano 105 Di2",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Shimano Deore XT",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Shimano Dura Ace",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Shimano Dura Ace Di2",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Shimano GRX",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Shimano Ultegra",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Shimano Ultegra Di2",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Shimano XTR",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "SRAM Force eTap AXS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "SRAM Red eTap AXS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "SRAM Rival eTap AXS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "SRAM X01 Eagle AXS",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "SRAM XX1 Eagle AXS",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Campagnolo Chorus",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Campagnolo Chorus EPS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Campagnolo Ekar",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Campagnolo Record",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Campagnolo Record EPS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Campagnolo Super Record",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Campagnolo Super Record EPS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Shimano Deore XT Di2",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Shimano SLX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Shimano Tiagra",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "SRAM Apex",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "SRAM GX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "SRAM GX Eagle",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "SRAM GX Eagle AXS",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "SRAM Red eTap",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "SRAM Rival",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "SRAM X01 Eagle",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "SRAM XX1",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "SRAM XX1 Eagle",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Campagnolo Athena",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Campagnolo Athena EPS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Campagnolo Centaur",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Campagnolo Mirage",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Campagnolo Potenza",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Campagnolo Xenon",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Enviolo Hub Gear",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Frameset",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "FSA K-Force",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "L-TWOO A2",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "L-TWOO GRT",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "L-TWOO RX",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Microshift",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Microshift 26",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Microshift Acolyte",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Microshift Advent",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Microshift ADVENT X",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Microshift AdventX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Other",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Other Campagnolo",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Other Shimano",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Other SRAM",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Pinion C-Line Gearbox",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Pinion E1.12 Motor & Gearbox",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Pinion P-Line Gearbox",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Rohloff Speedhub",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Sensah CRX",
+    "bike_types": []
+  },
+  {
+    "id": 104,
+    "name": "Sensah Empire",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Sensah SRX",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Shimano 600",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Shimano Acera",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Shimano Alfine 11 hub gears",
+    "bike_types": []
+  },
+  {
+    "id": 80,
+    "name": "Shimano Alfine 8 hub gears",
+    "bike_types": []
+  },
+  {
+    "id": 40,
+    "name": "Shimano Alivio",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Shimano Altus",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Shimano Claris",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Shimano CUES",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Shimano CUES Di2",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Shimano Deore",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Shimano Deore LX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Shimano DXR",
+    "bike_types": []
+  },
+  {
+    "id": 120,
+    "name": "Shimano Exage",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Shimano GRX Di2",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Shimano Nexus Hub Gear",
+    "bike_types": []
+  },
+  {
+    "id": 39,
+    "name": "Shimano Saint",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Shimano Sora",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Shimano Tourney",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Shimano XTR Di2",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Shimano ZEE",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Simplex Vintage",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 66,
+    "name": "Single Speed / Fixed Gear",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Sram Apex Etap AXS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Sram Eagle Transmission GX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Sram Eagle Transmission X0",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Sram Eagle Transmission XX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Sram Eagle Transmission XX SL",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "SRAM EX1",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "SRAM Force",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "SRAM GX DH",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "SRAM NX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "SRAM NX Eagle",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "SRAM Red",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "SRAM SX Eagle",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "SRAM X0",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Sram X0",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Sram X0 EAGLE AXS",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "SRAM X01",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "SRAM X01 DH",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "SRAM X1",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "SRAM X3",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "SRAM X4",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "SRAM X5",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "SRAM X7",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      },
+      {
+        "id": null,
+        "name": null
+      },
+      {
+        "id": null,
+        "name": null
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "SRAM X9",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "SRAM XX",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "WheelTop EDS",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Campagnolo Veloce",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel"
+      }
+    ]
+  }
+]

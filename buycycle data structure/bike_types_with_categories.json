@@ -1,0 +1,60 @@
+[
+    {
+        "options_json":
+        {
+            "bike_types":
+            [
+                {
+                    "id": 2,
+                    "name": "Mountainbike",
+                    "categories":
+                    [
+                        {
+                            "id": 19,
+                            "name": "Downhill"
+                        },
+                        {
+                            "id": 26,
+                            "name": "Trail"
+                        },
+                        {
+                            "id": 27,
+                            "name": "Other"
+                        },
+                        {
+                            "id": 28,
+                            "name": "Crosscountry"
+                        },
+                        {
+                            "id": 29,
+                            "name": "Enduro"
+                        }
+                    ]
+                },
+                {
+                    "id": 1,
+                    "name": "Road & Gravel",
+                    "categories":
+                    [
+                        {
+                            "id": 1,
+                            "name": "Road"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Gravel"
+                        },
+                        {
+                            "id": 4,
+                            "name": "Triathlon"
+                        },
+                        {
+                            "id": 45,
+                            "name": "Vintage"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

@@ -1,0 +1,82 @@
+{
+  "step_1": {
+    "bike_type_id": ">> use code from bike_type_and_categories.json<<",
+    "brand_id": ">> use code from brands.json<<",
+    "family_id": ">>always use the id from custom family for the brand<<"
+  },
+  "step_2": {
+    "bike_category_id": ">> use code from bike_type_and_categories.json<<",
+    "motor": "true | false if ebike",
+    "year": "int",
+    "frame_material_code": {
+      "options": [
+        {"code": "carbon", "name": "Carbon"},
+        {"code": "aluminum", "name": "Aluminum"},
+        {"code": "titanium", "name": "Titanium"},
+        {"code": "steel", "name": "Steel"},
+        {"code": "magnesium", "name": "Magnesium"}
+      ]
+    },
+    "bike_component_id": ">> use code from component_with_type.json",
+    "shifting_code": {
+      "options": [
+        {"code": "mechanical", "name": "Mechanical"},
+        {"code": "electronic", "name": "Electronic"},
+        {"code": "other", "name": "Other"}
+      ]
+    },
+    "brake_type_code": {
+      "options": [
+        {"code": "rim", "name": "Rim"},
+        {"code": "disc", "name": "Disc"},
+        {"code": "coaster", "name": "Coaster"},
+        {"code": "other", "name": "Other"}
+      ]
+    },
+    "msrp": "int",
+    "frame_size": ">> use code from sizes.json<<",
+    "color": ">>use code from colors.json<<",
+    "suspension_configuration": {
+      "options": [
+        {"code": "rigid", "name": "Rigid"},
+        {"code": "hardtail", "name": "Hardtail"},
+        {"code": "full", "name": "Full"}
+      ]
+    },
+    "front_suspension_travel": "int",
+    "rear_suspension_travel": "int"
+  },
+  "step_3": {
+    "receipt_present": "true | false",
+    "country_id": "int - from json",
+    "zip_code": "from user",
+    "state": "from user",
+    "city": "from user"
+  },
+  "step_4": {
+    "Fork_Material": "string - from user",
+    "Fork": "string - from user",
+    "Tires": "string - from user",
+    "Cassette": "string - from user",
+    "Seatpost": "string - from user",
+    "Handlebar": "string - from user",
+    "Chainrings": "string - from user",
+    "Saddle": "string - from user",
+    "Wheels": "string - from user",
+    "Crank": "string - from user",
+    "Stem": "string - from user",
+    "Brakes": "string - from user",
+    "RearDerailleur": "string - from user",
+    "Pedals": "string - from user",
+    "RearShock": "string - from user",
+    "Motor": "string - from user",
+    "info": "string - from user"
+  },
+  "step_5": {
+    "price": "int",
+    "currency": "EUR"
+  },
+  "step_6": {
+    "photos": []
+  }
+}

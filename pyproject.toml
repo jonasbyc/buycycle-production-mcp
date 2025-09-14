@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buycycle-listing-mcp"
+version = "1.0.0"
+description = "MCP server for Buycycle bike listing creation"
+authors = [
+    {name = "Buycycle Team", email = "dev@buycycle.com"}
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "pydantic>=2.0.0",
+    "typing-extensions>=4.0.0"
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+buycycle-listing-mcp = "server.main:main"
+
+[tool.setuptools.packages.find]
+include = ["server*"]
