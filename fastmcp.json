@@ -1,13 +1,12 @@
 {
   "$schema": "https://gofastmcp.com/public/schemas/fastmcp.json/v1.json",
-  "app": "buycycle_fastmcp:app",
+  "app": "lambda_mcp_server:app",
   "environment": {
     "type": "uv",
     "python": ">=3.10",
     "dependencies": [
-        "fastmcp>=0.2.0",
-        "mcp>=1.0.0",
-        "pydantic>=2.0.0"
+        "fastapi",
+        "uvicorn"
     ]
   }
 }
