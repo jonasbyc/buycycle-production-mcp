@@ -1,6 +1,6 @@
 """Pydantic models for type safety and validation."""
 from typing import Dict, List, Optional, Any, Union
-from pydantic import BaseModel, Field, validator
+from pydantic import BaseModel, Field, field_validator
 from enum import Enum
 
 
@@ -119,14 +119,15 @@ class Photo(BaseModel):
 
 class Photos(BaseModel):
     """Step 6: Photos and media."""
-    photos: List[Photo] = Field(min_items=3, max_items=20)
+    photos: List[Photo] = Field(min_length=3, max_length=20)
     main_photo_index: int = Field(ge=0)
 
-    @validator('photos')
+    @field_validator('photos')
     def validate_main_photo(cls, v, values):
-        main_index = values.get('main_photo_index', 0)
-        if main_index >= len(v):
-            raise ValueError("main_photo_index out of range")
+        if 'main_photo_index' in values.data:
+            main_index = values.data['main_photo_index']
+            if main_index >= len(v):
+                raise ValueError("main_photo_index out of range")
         return v
 
 
