@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Buycycle Production MCP Server - Serverless Compatible
-Conditional FastMCP import to avoid asyncio conflicts in Lambda environments
+Using standard MCP Python SDK for better FastMCP Cloud compatibility
 """
 
 import os
@@ -20,7 +20,7 @@ bike_data = {}
 def load_production_data():
     """Load all optimized production data into memory for <1s response times."""
     global bike_data
-    logger.info(" Loading optimized production data...")
+    logger.info("Loading optimized production data...")
 
     try:
         # Data directory
@@ -48,7 +48,7 @@ def load_production_data():
         with open(data_dir / "agent_listing_structure.json", 'r') as f:
             bike_data["listing_structure"] = json.load(f)
 
-        logger.info(f" Production data loaded: {len(bike_data['brands'])} brands, {len(bike_data['bike_types'])} bike types, {len(bike_data['components'])} components")
+        logger.info(f"Production data loaded: {len(bike_data['brands'])} brands, {len(bike_data['bike_types'])} bike types, {len(bike_data['components'])} components")
 
     except Exception as e:
         logger.error(f"Failed to load production data: {e}")
@@ -57,25 +57,143 @@ def load_production_data():
 # Load data immediately on import
 load_production_data()
 
-# Always use FastMCP for consistent interface
-from mcp.server.fastmcp import FastMCP
-mcp = FastMCP("Buycycle Production Listing Server")
+# Use standard MCP Python SDK for better serverless compatibility
+import mcp.types as types
+from mcp.server import Server
+from mcp.server.models import InitializationOptions
+import mcp.server.stdio
 
-# Export server for FastMCP Cloud (required naming)
-server = mcp
+# Create MCP server instance
+server = Server("buycycle-production-listing-server")
 
-# Check if we're in a serverless environment for execution control
-IS_SERVERLESS = bool(
-    os.environ.get('AWS_LAMBDA_FUNCTION_NAME') or
-    os.environ.get('VERCEL') or
-    os.environ.get('NETLIFY')
-)
+logger.info("MCP server initialized for serverless deployment")
 
-if IS_SERVERLESS:
-    logger.info("Serverless environment detected - FastMCP will handle execution")
+# Tool implementations converted to standard MCP SDK
+@server.list_tools()
+async def handle_list_tools() -> list[types.Tool]:
+    """List available tools for the bike listing workflow."""
+    return [
+        types.Tool(
+            name="get_complete_listing_workflow",
+            description="START HERE: Complete 6-step bike listing workflow with ALL options embedded. Returns the complete workflow structure with all available options for bike listing creation. Use this tool first to understand the full listing process and available options.",
+            inputSchema={
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="search_bike_brands",
+            description="STEP 1: Search for bike brands and get their IDs + auto-selected custom families. Returns brands with embedded custom family IDs to save additional tool calls.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "query": {"type": "string", "description": "Brand name to search for (e.g., 'trek', 'specialized')", "default": ""},
+                    "limit": {"type": "integer", "description": "Maximum number of brands to return", "default": 20},
+                    "offset": {"type": "integer", "description": "Pagination offset for large result sets", "default": 0}
+                },
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="search_bike_components",
+            description="STEP 2: Search bike components (groupsets) with bike type filtering. Components are automatically filtered by bike type compatibility.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "query": {"type": "string", "description": "Component name to search for (e.g., 'shimano', 'sram')", "default": ""},
+                    "bike_type_id": {"type": "integer", "description": "Filter by bike type ID (1=Road, 2=Mountain, etc.)"},
+                    "limit": {"type": "integer", "description": "Maximum number of components to return", "default": 20},
+                    "offset": {"type": "integer", "description": "Pagination offset for large result sets", "default": 0}
+                },
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="get_bike_types_and_categories",
+            description="Get all available bike types with their categories and IDs. Essential for STEP 1 bike type selection and component compatibility.",
+            inputSchema={
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="get_frame_colors",
+            description="STEP 2: Get all available frame colors with hex codes and descriptions. Use these exact color names in your bike listing.",
+            inputSchema={
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="get_frame_sizes",
+            description="STEP 2: Get all available frame sizes (numeric and letter sizing). Includes both numeric sizes (42-64cm) and letter sizes (XS-XXXL).",
+            inputSchema={
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="get_supported_countries",
+            description="STEP 3: Get all supported countries for bike listings with shipping information. Use for location selection and shipping configuration.",
+            inputSchema={
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        ),
+        types.Tool(
+            name="validate_bike_listing",
+            description="FINAL STEP: Validate a complete bike listing against the 6-step structure. Performs comprehensive validation of all required fields and data consistency.",
+            inputSchema={
+                "type": "object",
+                "properties": {
+                    "listing_data": {"type": "object", "description": "Complete bike listing following the 6-step structure"}
+                },
+                "required": ["listing_data"]
+            }
+        )
+    ]
 
-# Tool implementations (same as before)
-@mcp.tool()
+@server.call_tool()
+async def handle_call_tool(name: str, arguments: dict) -> list[types.TextContent]:
+    """Handle tool calls for bike listing operations."""
+
+    if name == "get_complete_listing_workflow":
+        result = get_complete_listing_workflow()
+    elif name == "search_bike_brands":
+        result = search_bike_brands(
+            query=arguments.get("query", ""),
+            limit=arguments.get("limit", 20),
+            offset=arguments.get("offset", 0)
+        )
+    elif name == "search_bike_components":
+        result = search_bike_components(
+            query=arguments.get("query", ""),
+            bike_type_id=arguments.get("bike_type_id"),
+            limit=arguments.get("limit", 20),
+            offset=arguments.get("offset", 0)
+        )
+    elif name == "get_bike_types_and_categories":
+        result = get_bike_types_and_categories()
+    elif name == "get_frame_colors":
+        result = get_frame_colors()
+    elif name == "get_frame_sizes":
+        result = get_frame_sizes()
+    elif name == "get_supported_countries":
+        result = get_supported_countries()
+    elif name == "validate_bike_listing":
+        result = validate_bike_listing(arguments["listing_data"])
+    else:
+        raise ValueError(f"Unknown tool: {name}")
+
+    # Convert result to string format for MCP response
+    return [types.TextContent(type="text", text=str(result) if not isinstance(result, str) else result)]
+
+# Tool implementation functions
 def get_complete_listing_workflow() -> str:
     """
     START HERE: Complete 6-step bike listing workflow with ALL options embedded.
@@ -127,7 +245,6 @@ Total options: {len(bike_data['brands'])} brands, {len(bike_data['components'])}
     except Exception:
         return "Error loading workflow structure"
 
-@mcp.tool()
 def search_bike_brands(query: str = "", limit: int = 20, offset: int = 0) -> Dict[str, Any]:
     """
     STEP 1: Search for bike brands and get their IDs + auto-selected custom families.
@@ -171,7 +288,6 @@ def search_bike_brands(query: str = "", limit: int = 20, offset: int = 0) -> Dic
     except Exception as e:
         return {"error": f"Failed to search brands: {str(e)}"}
 
-@mcp.tool()
 def search_bike_components(query: str = "", bike_type_id: Optional[int] = None, limit: int = 20, offset: int = 0) -> Dict[str, Any]:
     """
     STEP 2: Search bike components (groupsets) with bike type filtering.
@@ -222,7 +338,6 @@ def search_bike_components(query: str = "", bike_type_id: Optional[int] = None, 
     except Exception as e:
         return {"error": f"Failed to search components: {str(e)}"}
 
-@mcp.tool()
 def get_bike_types_and_categories() -> Dict[str, Any]:
     """
     Get all available bike types with their categories and IDs.
@@ -240,7 +355,6 @@ def get_bike_types_and_categories() -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"Failed to get bike types: {str(e)}"}
 
-@mcp.tool()
 def get_frame_colors() -> Dict[str, Any]:
     """
     STEP 2: Get all available frame colors with hex codes and descriptions.
@@ -258,7 +372,6 @@ def get_frame_colors() -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"Failed to get colors: {str(e)}"}
 
-@mcp.tool()
 def get_frame_sizes() -> Dict[str, Any]:
     """
     STEP 2: Get all available frame sizes (numeric and letter sizing).
@@ -278,7 +391,6 @@ def get_frame_sizes() -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"Failed to get sizes: {str(e)}"}
 
-@mcp.tool()
 def get_supported_countries() -> Dict[str, Any]:
     """
     STEP 3: Get all supported countries for bike listings with shipping information.
@@ -296,7 +408,6 @@ def get_supported_countries() -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"Failed to get countries: {str(e)}"}
 
-@mcp.tool()
 def validate_bike_listing(listing_data: Dict[str, Any]) -> Dict[str, Any]:
     """
     FINAL STEP: Validate a complete bike listing against the 6-step structure.
@@ -353,6 +464,17 @@ def validate_bike_listing(listing_data: Dict[str, Any]) -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"Validation failed: {str(e)}", "valid": False}
 
-# For local development, uncomment the lines below:
+# For local development with standard MCP:
 # if __name__ == "__main__":
-#     mcp.run(transport="stdio")
+#     import asyncio
+#     async def main():
+#         async with mcp.server.stdio.stdio_server() as (read_stream, write_stream):
+#             await server.run(read_stream, write_stream, InitializationOptions(
+#                 server_name="buycycle-production-listing-server",
+#                 server_version="1.0.0",
+#                 capabilities=server.get_capabilities(
+#                     notification_options=NotificationOptions(),
+#                     experimental_capabilities={}
+#                 )
+#             ))
+#     asyncio.run(main())
