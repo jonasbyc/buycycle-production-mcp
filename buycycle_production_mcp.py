@@ -353,10 +353,6 @@ def validate_bike_listing(listing_data: Dict[str, Any]) -> Dict[str, Any]:
     except Exception as e:
         return {"error": f"Validation failed: {str(e)}", "valid": False}
 
-def main():
-    """Entry point for local development only"""
-    mcp.run(transport="stdio")
-
-# Only run the server if executed directly (not imported by FastMCP Cloud)
-if __name__ == "__main__":
-    main()
+# For local development, uncomment the lines below:
+# if __name__ == "__main__":
+#     mcp.run(transport="stdio")
