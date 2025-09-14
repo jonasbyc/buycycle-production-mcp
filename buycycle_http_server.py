@@ -4,6 +4,12 @@ ASGI HTTP server wrapper for the Buycycle Listing MCP Server.
 This file makes the stdio-based MCP server compatible with HTTP environments like FastMCP.
 """
 import logging
+import sys
+from pathlib import Path
+
+# Add project root to the Python path
+sys.path.insert(0, str(Path(__file__).parent))
+
 from fastapi import FastAPI, Request, Response
 from server.main import server as mcp_server
 from server.data_loader import data_loader
