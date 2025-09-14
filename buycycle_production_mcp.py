@@ -57,7 +57,14 @@ def load_production_data():
 # Load data immediately on import
 load_production_data()
 
-# Check if we're in a serverless environment
+# Always use FastMCP for consistent interface
+from mcp.server.fastmcp import FastMCP
+mcp = FastMCP("Buycycle Production Listing Server")
+
+# Export server for FastMCP Cloud (required naming)
+server = mcp
+
+# Check if we're in a serverless environment for execution control
 IS_SERVERLESS = bool(
     os.environ.get('AWS_LAMBDA_FUNCTION_NAME') or
     os.environ.get('VERCEL') or
@@ -65,27 +72,7 @@ IS_SERVERLESS = bool(
 )
 
 if IS_SERVERLESS:
-    logger.info("Serverless environment detected - skipping FastMCP initialization")
-    # Create a minimal server interface for serverless
-    class MinimalServer:
-        def __init__(self, name):
-            self.name = name
-            self.tools = {}
-
-        def tool(self, name=None):
-            def decorator(func):
-                tool_name = name or func.__name__
-                self.tools[tool_name] = func
-                return func
-            return decorator
-
-    mcp = MinimalServer("Buycycle Production Listing Server")
-    server = mcp
-else:
-    # Import and use FastMCP for local development
-    from mcp.server.fastmcp import FastMCP
-    mcp = FastMCP("Buycycle Production Listing Server")
-    server = mcp
+    logger.info("Serverless environment detected - FastMCP will handle execution")
 
 # Tool implementations (same as before)
 @mcp.tool()
