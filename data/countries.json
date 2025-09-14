@@ -1,0 +1,92 @@
+[
+  {
+    "code": "DE",
+    "name": "Germany",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart", "Düsseldorf", "Dortmund", "Essen", "Leipzig"]
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Vienna", "Graz", "Linz", "Salzburg", "Innsbruck", "Klagenfurt"]
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["CHF"],
+    "major_cities": ["Zurich", "Geneva", "Basel", "Bern", "Lausanne", "Winterthur"]
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Amsterdam", "Rotterdam", "The Hague", "Utrecht", "Eindhoven", "Tilburg", "Groningen", "Almere"]
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Brussels", "Antwerp", "Ghent", "Charleroi", "Liège", "Bruges"]
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Paris", "Marseille", "Lyon", "Toulouse", "Nice", "Nantes", "Montpellier", "Strasbourg", "Bordeaux"]
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Rome", "Milan", "Naples", "Turin", "Palermo", "Genoa", "Bologna", "Florence", "Venice"]
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["EUR"],
+    "major_cities": ["Madrid", "Barcelona", "Valencia", "Seville", "Zaragoza", "Málaga", "Murcia", "Palma", "Bilbao"]
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "shipping_domestic": true,
+    "shipping_eu": true,
+    "shipping_international": true,
+    "currencies": ["GBP"],
+    "major_cities": ["London", "Birmingham", "Manchester", "Glasgow", "Liverpool", "Leeds", "Sheffield", "Edinburgh", "Bristol"]
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "shipping_domestic": true,
+    "shipping_eu": false,
+    "shipping_international": true,
+    "currencies": ["USD"],
+    "major_cities": ["New York", "Los Angeles", "Chicago", "Houston", "Phoenix", "Philadelphia", "San Antonio", "San Diego", "Dallas", "San Jose"]
+  }
+]

@@ -1,0 +1,276 @@
+{
+  "trek": {
+    "road": [
+      {
+        "id": "domane",
+        "name": "Domane",
+        "type": "endurance",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2500, "max": 12000}
+      },
+      {
+        "id": "emonda",
+        "name": "Émonda",
+        "type": "lightweight",
+        "year_range": [2019, 2024],
+        "msrp_range": {"min": 2200, "max": 11000}
+      },
+      {
+        "id": "madone",
+        "name": "Madone",
+        "type": "aero",
+        "year_range": [2021, 2024],
+        "msrp_range": {"min": 5500, "max": 15000}
+      }
+    ],
+    "mountain": [
+      {
+        "id": "fuel_ex",
+        "name": "Fuel EX",
+        "type": "trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 3200, "max": 8500}
+      },
+      {
+        "id": "remedy",
+        "name": "Remedy",
+        "type": "all_mountain",
+        "year_range": [2019, 2023],
+        "msrp_range": {"min": 4000, "max": 9500}
+      },
+      {
+        "id": "procaliber",
+        "name": "Procaliber",
+        "type": "xc_hardtail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 1800, "max": 5500}
+      }
+    ],
+    "e_bike": [
+      {
+        "id": "domane_plus",
+        "name": "Domane+",
+        "type": "e_road",
+        "year_range": [2021, 2024],
+        "msrp_range": {"min": 4500, "max": 8500}
+      },
+      {
+        "id": "rail",
+        "name": "Rail",
+        "type": "e_mountain",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 5500, "max": 12000}
+      }
+    ]
+  },
+  "specialized": {
+    "road": [
+      {
+        "id": "tarmac",
+        "name": "Tarmac",
+        "type": "race",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2800, "max": 13000}
+      },
+      {
+        "id": "roubaix",
+        "name": "Roubaix",
+        "type": "endurance",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2500, "max": 11000}
+      },
+      {
+        "id": "venge",
+        "name": "Venge",
+        "type": "aero",
+        "year_range": [2019, 2022],
+        "msrp_range": {"min": 4500, "max": 14000}
+      }
+    ],
+    "mountain": [
+      {
+        "id": "stumpjumper",
+        "name": "Stumpjumper",
+        "type": "trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 3000, "max": 9000}
+      },
+      {
+        "id": "enduro",
+        "name": "Enduro",
+        "type": "enduro",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 4500, "max": 11000}
+      },
+      {
+        "id": "epic",
+        "name": "Epic",
+        "type": "xc",
+        "year_range": [2021, 2024],
+        "msrp_range": {"min": 3500, "max": 10000}
+      }
+    ],
+    "e_bike": [
+      {
+        "id": "turbo_vado",
+        "name": "Turbo Vado",
+        "type": "e_commuter",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 3200, "max": 6500}
+      },
+      {
+        "id": "turbo_levo",
+        "name": "Turbo Levo",
+        "type": "e_mountain",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 4800, "max": 13000}
+      }
+    ]
+  },
+  "canyon": {
+    "road": [
+      {
+        "id": "aeroad",
+        "name": "Aeroad",
+        "type": "aero",
+        "year_range": [2021, 2024],
+        "msrp_range": {"min": 2800, "max": 8500}
+      },
+      {
+        "id": "ultimate",
+        "name": "Ultimate",
+        "type": "race",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2200, "max": 9500}
+      },
+      {
+        "id": "endurace",
+        "name": "Endurace",
+        "type": "endurance",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 1800, "max": 6500}
+      }
+    ],
+    "mountain": [
+      {
+        "id": "spectral",
+        "name": "Spectral",
+        "type": "trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2800, "max": 7500}
+      },
+      {
+        "id": "neuron",
+        "name": "Neuron",
+        "type": "trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2200, "max": 5500}
+      },
+      {
+        "id": "torque",
+        "name": "Torque",
+        "type": "freeride",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 3500, "max": 8000}
+      }
+    ],
+    "gravel": [
+      {
+        "id": "grail",
+        "name": "Grail",
+        "type": "gravel_race",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2000, "max": 6000}
+      },
+      {
+        "id": "grizl",
+        "name": "Grizl",
+        "type": "gravel_adventure",
+        "year_range": [2021, 2024],
+        "msrp_range": {"min": 2200, "max": 5500}
+      }
+    ]
+  },
+  "santa_cruz": {
+    "mountain": [
+      {
+        "id": "hightower",
+        "name": "Hightower",
+        "type": "trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 4200, "max": 10500}
+      },
+      {
+        "id": "nomad",
+        "name": "Nomad",
+        "type": "enduro",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 5000, "max": 12000}
+      },
+      {
+        "id": "tallboy",
+        "name": "Tallboy",
+        "type": "xc_trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 3800, "max": 9500}
+      },
+      {
+        "id": "v10",
+        "name": "V10",
+        "type": "downhill",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 6500, "max": 15000}
+      }
+    ]
+  },
+  "giant": {
+    "road": [
+      {
+        "id": "tcr",
+        "name": "TCR Advanced",
+        "type": "race",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2000, "max": 8500}
+      },
+      {
+        "id": "defy",
+        "name": "Defy Advanced",
+        "type": "endurance",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 1600, "max": 5500}
+      }
+    ],
+    "mountain": [
+      {
+        "id": "trance",
+        "name": "Trance",
+        "type": "trail",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2200, "max": 6500}
+      },
+      {
+        "id": "anthem",
+        "name": "Anthem",
+        "type": "xc",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2800, "max": 7000}
+      }
+    ],
+    "e_bike": [
+      {
+        "id": "explore_e",
+        "name": "Explore E+",
+        "type": "e_hybrid",
+        "year_range": [2020, 2024],
+        "msrp_range": {"min": 2200, "max": 4500}
+      },
+      {
+        "id": "trance_e",
+        "name": "Trance E+",
+        "type": "e_mountain",
+        "year_range": [2021, 2024],
+        "msrp_range": {"min": 4500, "max": 8500}
+      }
+    ]
+  }
+}

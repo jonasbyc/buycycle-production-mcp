@@ -1,0 +1,81 @@
+[
+  {
+    "id": 2,
+    "name": "Mountainbike",
+    "description": "Mountainbike bicycles - Premium cycling category",
+    "categories": [
+      {
+        "id": 19,
+        "name": "Downhill",
+        "description": "Downhill - Specialized mountainbike subcategory",
+        "bike_type_id": 2,
+        "bike_type_name": "Mountainbike"
+      },
+      {
+        "id": 26,
+        "name": "Trail",
+        "description": "Trail - Specialized mountainbike subcategory",
+        "bike_type_id": 2,
+        "bike_type_name": "Mountainbike"
+      },
+      {
+        "id": 27,
+        "name": "Other",
+        "description": "Other - Specialized mountainbike subcategory",
+        "bike_type_id": 2,
+        "bike_type_name": "Mountainbike"
+      },
+      {
+        "id": 28,
+        "name": "Crosscountry",
+        "description": "Crosscountry - Specialized mountainbike subcategory",
+        "bike_type_id": 2,
+        "bike_type_name": "Mountainbike"
+      },
+      {
+        "id": 29,
+        "name": "Enduro",
+        "description": "Enduro - Specialized mountainbike subcategory",
+        "bike_type_id": 2,
+        "bike_type_name": "Mountainbike"
+      }
+    ],
+    "total_categories": 5
+  },
+  {
+    "id": 1,
+    "name": "Road & Gravel",
+    "description": "Road & Gravel bicycles - Premium cycling category",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Road",
+        "description": "Road - Specialized road & gravel subcategory",
+        "bike_type_id": 1,
+        "bike_type_name": "Road & Gravel"
+      },
+      {
+        "id": 2,
+        "name": "Gravel",
+        "description": "Gravel - Specialized road & gravel subcategory",
+        "bike_type_id": 1,
+        "bike_type_name": "Road & Gravel"
+      },
+      {
+        "id": 4,
+        "name": "Triathlon",
+        "description": "Triathlon - Specialized road & gravel subcategory",
+        "bike_type_id": 1,
+        "bike_type_name": "Road & Gravel"
+      },
+      {
+        "id": 45,
+        "name": "Vintage",
+        "description": "Vintage - Specialized road & gravel subcategory",
+        "bike_type_id": 1,
+        "bike_type_name": "Road & Gravel"
+      }
+    ],
+    "total_categories": 4
+  }
+]

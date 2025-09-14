@@ -1,0 +1,74 @@
+{
+  "frame_materials": {
+    "carbon": {"name": "Carbon Fiber", "weight_class": "light", "price_class": "premium"},
+    "aluminum": {"name": "Aluminum", "weight_class": "medium", "price_class": "mid"},
+    "steel": {"name": "Steel", "weight_class": "heavy", "price_class": "budget"},
+    "titanium": {"name": "Titanium", "weight_class": "light", "price_class": "premium"},
+    "carbon_aluminum": {"name": "Carbon/Aluminum Mix", "weight_class": "medium", "price_class": "mid"}
+  },
+  "conditions": {
+    "new": {"name": "New", "description": "Brand new, never ridden"},
+    "like_new": {"name": "Like New", "description": "Minimal use, excellent condition"},
+    "very_good": {"name": "Very Good", "description": "Light use, minor wear"},
+    "good": {"name": "Good", "description": "Regular use, some wear visible"},
+    "fair": {"name": "Fair", "description": "Heavy use, significant wear but functional"}
+  },
+  "motor_brands": {
+    "bosch": {"name": "Bosch", "types": ["performance", "active", "cargo"]},
+    "shimano": {"name": "Shimano", "types": ["steps", "nexus"]},
+    "yamaha": {"name": "Yamaha", "types": ["pwx", "pws"]},
+    "brose": {"name": "Brose", "types": ["drive_s", "drive_c", "drive_t"]},
+    "fazua": {"name": "Fazua", "types": ["evation"]},
+    "specialized": {"name": "Specialized", "types": ["turbo"]},
+    "giant": {"name": "Giant", "types": ["syncdrive"]}
+  },
+  "motor_positions": {
+    "mid_drive": {"name": "Mid Drive", "description": "Motor at bottom bracket"},
+    "hub_rear": {"name": "Rear Hub", "description": "Motor in rear wheel hub"},
+    "hub_front": {"name": "Front Hub", "description": "Motor in front wheel hub"}
+  },
+  "suspension_types": {
+    "rigid": {"name": "Rigid", "description": "No suspension"},
+    "hardtail": {"name": "Hardtail", "description": "Front suspension only"},
+    "full_suspension": {"name": "Full Suspension", "description": "Front and rear suspension"}
+  },
+  "shifter_brands": {
+    "shimano": {"name": "Shimano", "series": ["105", "ultegra", "dura_ace", "deore", "xt", "xtr"]},
+    "sram": {"name": "SRAM", "series": ["rival", "force", "red", "nx", "gx", "xx1"]},
+    "campagnolo": {"name": "Campagnolo", "series": ["centaur", "chorus", "record", "super_record"]},
+    "microshift": {"name": "microSHIFT", "series": ["advent", "sword"]},
+    "sensah": {"name": "SENSAH", "series": ["team_pro", "empire"]}
+  },
+  "brake_types": {
+    "disc_hydraulic": {"name": "Hydraulic Disc", "description": "Fluid-actuated disc brakes"},
+    "disc_mechanical": {"name": "Mechanical Disc", "description": "Cable-actuated disc brakes"},
+    "rim_brake": {"name": "Rim Brake", "description": "Brake pads on wheel rim"},
+    "coaster_brake": {"name": "Coaster Brake", "description": "Pedal-back braking system"}
+  },
+  "brake_brands": {
+    "shimano": {"name": "Shimano", "types": ["hydraulic", "mechanical", "rim"]},
+    "sram": {"name": "SRAM", "types": ["hydraulic", "mechanical"]},
+    "hayes": {"name": "Hayes", "types": ["hydraulic", "mechanical"]},
+    "tektro": {"name": "Tektro", "types": ["hydraulic", "mechanical", "rim"]},
+    "magura": {"name": "Magura", "types": ["hydraulic", "rim"]},
+    "avid": {"name": "Avid", "types": ["hydraulic", "mechanical"]}
+  },
+  "frame_sizes": {
+    "road": ["48", "50", "52", "54", "56", "58", "60", "62", "64"],
+    "mountain": ["xs", "s", "m", "l", "xl", "xxl"],
+    "city": ["xs", "s", "m", "l", "xl"],
+    "hybrid": ["xs", "s", "m", "l", "xl"],
+    "e_bike": ["xs", "s", "m", "l", "xl", "xxl"],
+    "bmx": ["mini", "junior", "expert", "pro", "cruiser"],
+    "gravel": ["48", "50", "52", "54", "56", "58", "60", "62"],
+    "touring": ["48", "50", "52", "54", "56", "58", "60", "62", "64"]
+  },
+  "years": [2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017, 2016, 2015, 2014, 2013, 2012, 2011, 2010],
+  "common_colors": [
+    "black", "white", "red", "blue", "green", "yellow", "orange", "purple",
+    "gray", "silver", "gold", "pink", "brown", "turquoise", "lime", "navy"
+  ],
+  "battery_capacities": [
+    300, 400, 500, 504, 600, 625, 700, 750, 800, 900, 1000
+  ]
+}

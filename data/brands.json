@@ -1,0 +1,107 @@
+{
+  "trek": {
+    "id": "trek",
+    "name": "Trek",
+    "country": "USA",
+    "founded": 1976,
+    "specialty": ["road", "mountain", "e_bike"]
+  },
+  "specialized": {
+    "id": "specialized",
+    "name": "Specialized",
+    "country": "USA",
+    "founded": 1974,
+    "specialty": ["road", "mountain", "e_bike"]
+  },
+  "canyon": {
+    "id": "canyon",
+    "name": "Canyon",
+    "country": "Germany",
+    "founded": 2002,
+    "specialty": ["road", "mountain", "gravel"]
+  },
+  "giant": {
+    "id": "giant",
+    "name": "Giant",
+    "country": "Taiwan",
+    "founded": 1972,
+    "specialty": ["road", "mountain", "e_bike", "city"]
+  },
+  "scott": {
+    "id": "scott",
+    "name": "Scott",
+    "country": "Switzerland",
+    "founded": 1958,
+    "specialty": ["road", "mountain"]
+  },
+  "cannondale": {
+    "id": "cannondale",
+    "name": "Cannondale",
+    "country": "USA",
+    "founded": 1971,
+    "specialty": ["road", "mountain"]
+  },
+  "bianchi": {
+    "id": "bianchi",
+    "name": "Bianchi",
+    "country": "Italy",
+    "founded": 1885,
+    "specialty": ["road", "gravel"]
+  },
+  "pinarello": {
+    "id": "pinarello",
+    "name": "Pinarello",
+    "country": "Italy",
+    "founded": 1953,
+    "specialty": ["road"]
+  },
+  "santa_cruz": {
+    "id": "santa_cruz",
+    "name": "Santa Cruz",
+    "country": "USA",
+    "founded": 1993,
+    "specialty": ["mountain"]
+  },
+  "yeti": {
+    "id": "yeti",
+    "name": "Yeti",
+    "country": "USA",
+    "founded": 1985,
+    "specialty": ["mountain"]
+  },
+  "cube": {
+    "id": "cube",
+    "name": "Cube",
+    "country": "Germany",
+    "founded": 1993,
+    "specialty": ["road", "mountain", "e_bike", "city"]
+  },
+  "focus": {
+    "id": "focus",
+    "name": "Focus",
+    "country": "Germany",
+    "founded": 1992,
+    "specialty": ["road", "mountain", "e_bike"]
+  },
+  "cervelo": {
+    "id": "cervelo",
+    "name": "Cervélo",
+    "country": "Canada",
+    "founded": 1995,
+    "specialty": ["road"]
+  },
+  "orbea": {
+    "id": "orbea",
+    "name": "Orbea",
+    "country": "Spain",
+    "founded": 1840,
+    "specialty": ["road", "mountain", "e_bike"]
+  },
+  "merida": {
+    "id": "merida",
+    "name": "Merida",
+    "country": "Taiwan",
+    "founded": 1972,
+    "specialty": ["road", "mountain", "e_bike"]
+  }
+}

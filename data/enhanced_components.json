@@ -1,0 +1,1442 @@
+[
+  {
+    "id": 17,
+    "name": "Shimano 105",
+    "description": "Shimano 105 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 65,
+    "name": "Shimano 105 Di2",
+    "description": "Shimano 105 Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 35,
+    "name": "Shimano Deore XT",
+    "description": "Shimano Deore XT - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 12,
+    "name": "Shimano Dura Ace",
+    "description": "Shimano Dura Ace - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 11,
+    "name": "Shimano Dura Ace Di2",
+    "description": "Shimano Dura Ace Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 15,
+    "name": "Shimano GRX",
+    "description": "Shimano GRX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 13,
+    "name": "Shimano Ultegra",
+    "description": "Shimano Ultegra - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 14,
+    "name": "Shimano Ultegra Di2",
+    "description": "Shimano Ultegra Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 33,
+    "name": "Shimano XTR",
+    "description": "Shimano XTR - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 23,
+    "name": "SRAM Force eTap AXS",
+    "description": "SRAM Force eTap AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 22,
+    "name": "SRAM Red eTap AXS",
+    "description": "SRAM Red eTap AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 30,
+    "name": "SRAM Rival eTap AXS",
+    "description": "SRAM Rival eTap AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 47,
+    "name": "SRAM X01 Eagle AXS",
+    "description": "SRAM X01 Eagle AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 44,
+    "name": "SRAM XX1 Eagle AXS",
+    "description": "SRAM XX1 Eagle AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 7,
+    "name": "Campagnolo Chorus",
+    "description": "Campagnolo Chorus - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 6,
+    "name": "Campagnolo Chorus EPS",
+    "description": "Campagnolo Chorus EPS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 5,
+    "name": "Campagnolo Ekar",
+    "description": "Campagnolo Ekar - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 4,
+    "name": "Campagnolo Record",
+    "description": "Campagnolo Record - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 3,
+    "name": "Campagnolo Record EPS",
+    "description": "Campagnolo Record EPS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 2,
+    "name": "Campagnolo Super Record",
+    "description": "Campagnolo Super Record - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 1,
+    "name": "Campagnolo Super Record EPS",
+    "description": "Campagnolo Super Record EPS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 34,
+    "name": "Shimano Deore XT Di2",
+    "description": "Shimano Deore XT Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 36,
+    "name": "Shimano SLX",
+    "description": "Shimano SLX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 18,
+    "name": "Shimano Tiagra",
+    "description": "Shimano Tiagra - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 28,
+    "name": "SRAM Apex",
+    "description": "SRAM Apex - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 53,
+    "name": "SRAM GX",
+    "description": "SRAM GX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 52,
+    "name": "SRAM GX Eagle",
+    "description": "SRAM GX Eagle - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 51,
+    "name": "SRAM GX Eagle AXS",
+    "description": "SRAM GX Eagle AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 24,
+    "name": "SRAM Red eTap",
+    "description": "SRAM Red eTap - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 27,
+    "name": "SRAM Rival",
+    "description": "SRAM Rival - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 48,
+    "name": "SRAM X01 Eagle",
+    "description": "SRAM X01 Eagle - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 46,
+    "name": "SRAM XX1",
+    "description": "SRAM XX1 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 45,
+    "name": "SRAM XX1 Eagle",
+    "description": "SRAM XX1 Eagle - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 9,
+    "name": "Campagnolo Athena",
+    "description": "Campagnolo Athena - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 8,
+    "name": "Campagnolo Athena EPS",
+    "description": "Campagnolo Athena EPS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 89,
+    "name": "Campagnolo Centaur",
+    "description": "Campagnolo Centaur - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 111,
+    "name": "Campagnolo Mirage",
+    "description": "Campagnolo Mirage - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 96,
+    "name": "Campagnolo Potenza",
+    "description": "Campagnolo Potenza - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 108,
+    "name": "Campagnolo Xenon",
+    "description": "Campagnolo Xenon - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 100,
+    "name": "Enviolo Hub Gear",
+    "description": "Enviolo Hub Gear - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 84,
+    "name": "Frameset",
+    "description": "Frameset - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 103,
+    "name": "FSA K-Force",
+    "description": "FSA K-Force - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 109,
+    "name": "L-TWOO A2",
+    "description": "L-TWOO A2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 76,
+    "name": "L-TWOO GRT",
+    "description": "L-TWOO GRT - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 114,
+    "name": "L-TWOO RX",
+    "description": "L-TWOO RX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 59,
+    "name": "Microshift",
+    "description": "Microshift - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 110,
+    "name": "Microshift 26",
+    "description": "Microshift 26 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 62,
+    "name": "Microshift Acolyte",
+    "description": "Microshift Acolyte - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 61,
+    "name": "Microshift Advent",
+    "description": "Microshift Advent - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 74,
+    "name": "Microshift ADVENT X",
+    "description": "Microshift ADVENT X - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 60,
+    "name": "Microshift AdventX",
+    "description": "Microshift AdventX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 64,
+    "name": "Other",
+    "description": "Other - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 10,
+    "name": "Other Campagnolo",
+    "description": "Other Campagnolo - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 21,
+    "name": "Other Shimano",
+    "description": "Other Shimano - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 29,
+    "name": "Other SRAM",
+    "description": "Other SRAM - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 77,
+    "name": "Pinion C-Line Gearbox",
+    "description": "Pinion C-Line Gearbox - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      },
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 107,
+    "name": "Pinion E1.12 Motor & Gearbox",
+    "description": "Pinion E1.12 Motor & Gearbox - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 78,
+    "name": "Pinion P-Line Gearbox",
+    "description": "Pinion P-Line Gearbox - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      },
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 79,
+    "name": "Rohloff Speedhub",
+    "description": "Rohloff Speedhub - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 106,
+    "name": "Sensah CRX",
+    "description": "Sensah CRX - Professional bicycle component system",
+    "bike_types": [],
+    "compatible_bike_types_count": 0
+  },
+  {
+    "id": 104,
+    "name": "Sensah Empire",
+    "description": "Sensah Empire - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 105,
+    "name": "Sensah SRX",
+    "description": "Sensah SRX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 112,
+    "name": "Shimano 600",
+    "description": "Shimano 600 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 41,
+    "name": "Shimano Acera",
+    "description": "Shimano Acera - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 81,
+    "name": "Shimano Alfine 11 hub gears",
+    "description": "Shimano Alfine 11 hub gears - Professional bicycle component system",
+    "bike_types": [],
+    "compatible_bike_types_count": 0
+  },
+  {
+    "id": 80,
+    "name": "Shimano Alfine 8 hub gears",
+    "description": "Shimano Alfine 8 hub gears - Professional bicycle component system",
+    "bike_types": [],
+    "compatible_bike_types_count": 0
+  },
+  {
+    "id": 40,
+    "name": "Shimano Alivio",
+    "description": "Shimano Alivio - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 42,
+    "name": "Shimano Altus",
+    "description": "Shimano Altus - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 20,
+    "name": "Shimano Claris",
+    "description": "Shimano Claris - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 83,
+    "name": "Shimano CUES",
+    "description": "Shimano CUES - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 93,
+    "name": "Shimano CUES Di2",
+    "description": "Shimano CUES Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 37,
+    "name": "Shimano Deore",
+    "description": "Shimano Deore - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 121,
+    "name": "Shimano Deore LX",
+    "description": "Shimano Deore LX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 124,
+    "name": "Shimano DXR",
+    "description": "Shimano DXR - Professional bicycle component system",
+    "bike_types": [],
+    "compatible_bike_types_count": 0
+  },
+  {
+    "id": 120,
+    "name": "Shimano Exage",
+    "description": "Shimano Exage - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 16,
+    "name": "Shimano GRX Di2",
+    "description": "Shimano GRX Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 82,
+    "name": "Shimano Nexus Hub Gear",
+    "description": "Shimano Nexus Hub Gear - Professional bicycle component system",
+    "bike_types": [],
+    "compatible_bike_types_count": 0
+  },
+  {
+    "id": 39,
+    "name": "Shimano Saint",
+    "description": "Shimano Saint - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 19,
+    "name": "Shimano Sora",
+    "description": "Shimano Sora - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 86,
+    "name": "Shimano Tourney",
+    "description": "Shimano Tourney - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 32,
+    "name": "Shimano XTR Di2",
+    "description": "Shimano XTR Di2 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 38,
+    "name": "Shimano ZEE",
+    "description": "Shimano ZEE - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 102,
+    "name": "Simplex Vintage",
+    "description": "Simplex Vintage - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 66,
+    "name": "Single Speed / Fixed Gear",
+    "description": "Single Speed / Fixed Gear - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      },
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 2
+  },
+  {
+    "id": 69,
+    "name": "Sram Apex Etap AXS",
+    "description": "Sram Apex Etap AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 73,
+    "name": "Sram Eagle Transmission GX",
+    "description": "Sram Eagle Transmission GX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 72,
+    "name": "Sram Eagle Transmission X0",
+    "description": "Sram Eagle Transmission X0 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 71,
+    "name": "Sram Eagle Transmission XX",
+    "description": "Sram Eagle Transmission XX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 70,
+    "name": "Sram Eagle Transmission XX SL",
+    "description": "Sram Eagle Transmission XX SL - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 97,
+    "name": "SRAM EX1",
+    "description": "SRAM EX1 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 26,
+    "name": "SRAM Force",
+    "description": "SRAM Force - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 54,
+    "name": "SRAM GX DH",
+    "description": "SRAM GX DH - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 56,
+    "name": "SRAM NX",
+    "description": "SRAM NX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 55,
+    "name": "SRAM NX Eagle",
+    "description": "SRAM NX Eagle - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 25,
+    "name": "SRAM Red",
+    "description": "SRAM Red - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 57,
+    "name": "SRAM SX Eagle",
+    "description": "SRAM SX Eagle - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 92,
+    "name": "SRAM X0",
+    "description": "SRAM X0 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 113,
+    "name": "Sram X0",
+    "description": "Sram X0 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 75,
+    "name": "Sram X0 EAGLE AXS",
+    "description": "Sram X0 EAGLE AXS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 49,
+    "name": "SRAM X01",
+    "description": "SRAM X01 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 50,
+    "name": "SRAM X01 DH",
+    "description": "SRAM X01 DH - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 87,
+    "name": "SRAM X1",
+    "description": "SRAM X1 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 98,
+    "name": "SRAM X3",
+    "description": "SRAM X3 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 90,
+    "name": "SRAM X4",
+    "description": "SRAM X4 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 94,
+    "name": "SRAM X5",
+    "description": "SRAM X5 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 91,
+    "name": "SRAM X7",
+    "description": "SRAM X7 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 95,
+    "name": "SRAM X9",
+    "description": "SRAM X9 - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 88,
+    "name": "SRAM XX",
+    "description": "SRAM XX - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 2,
+        "name": "Mountainbike",
+        "description": "Compatible with Mountainbike bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 122,
+    "name": "WheelTop EDS",
+    "description": "WheelTop EDS - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  },
+  {
+    "id": 99,
+    "name": "Campagnolo Veloce",
+    "description": "Campagnolo Veloce - Professional bicycle component system",
+    "bike_types": [
+      {
+        "id": 1,
+        "name": "Road & Gravel",
+        "description": "Compatible with Road & Gravel bicycles"
+      }
+    ],
+    "compatible_bike_types_count": 1
+  }
+]

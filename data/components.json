@@ -1,0 +1,74 @@
+{
+  "wheels": {
+    "road": [
+      {"brand": "Mavic", "model": "Ksyrium Elite", "type": "alloy", "weight": 1590},
+      {"brand": "Shimano", "model": "Ultegra", "type": "alloy", "weight": 1650},
+      {"brand": "Campagnolo", "model": "Shamal Ultra", "type": "alloy", "weight": 1455},
+      {"brand": "Zipp", "model": "303 Firecrest", "type": "carbon", "weight": 1450},
+      {"brand": "ENVE", "model": "SES 3.4", "type": "carbon", "weight": 1265}
+    ],
+    "mountain": [
+      {"brand": "DT Swiss", "model": "XM 1501", "type": "alloy", "weight": 1890},
+      {"brand": "Mavic", "model": "Crossmax Elite", "type": "alloy", "weight": 1780},
+      {"brand": "Stan's NoTubes", "model": "Flow MK3", "type": "alloy", "weight": 1920},
+      {"brand": "Industry Nine", "model": "Trail S", "type": "alloy", "weight": 1850},
+      {"brand": "ENVE", "model": "M70 HV", "type": "carbon", "weight": 1580}
+    ]
+  },
+  "tires": {
+    "road": [
+      {"brand": "Continental", "model": "Grand Prix 5000", "width": "25mm", "type": "clincher"},
+      {"brand": "Michelin", "model": "Power Road", "width": "28mm", "type": "tubeless"},
+      {"brand": "Pirelli", "model": "P Zero Velo", "width": "26mm", "type": "clincher"},
+      {"brand": "Vittoria", "model": "Corsa Speed", "width": "25mm", "type": "tubular"}
+    ],
+    "mountain": [
+      {"brand": "Maxxis", "model": "Minion DHR II", "width": "2.4", "type": "tubeless"},
+      {"brand": "Continental", "model": "Trail King", "width": "2.2", "type": "tubeless"},
+      {"brand": "Schwalbe", "model": "Magic Mary", "width": "2.35", "type": "tubeless"},
+      {"brand": "Michelin", "model": "Wild Enduro", "width": "2.4", "type": "tubeless"}
+    ],
+    "gravel": [
+      {"brand": "WTB", "model": "Riddler", "width": "37mm", "type": "tubeless"},
+      {"brand": "Continental", "model": "Terra Trail", "width": "40mm", "type": "tubeless"},
+      {"brand": "Specialized", "model": "Pathfinder Pro", "width": "42mm", "type": "tubeless"}
+    ]
+  },
+  "saddles": [
+    {"brand": "Brooks", "model": "B17", "type": "leather", "width": "175mm"},
+    {"brand": "Fizik", "model": "Arione", "type": "synthetic", "width": "142mm"},
+    {"brand": "Specialized", "model": "Power", "type": "synthetic", "width": "143mm"},
+    {"brand": "Selle Italia", "model": "SLR Boost", "type": "carbon", "width": "145mm"},
+    {"brand": "WTB", "model": "Volt", "type": "synthetic", "width": "142mm"}
+  ],
+  "handlebars": {
+    "road": [
+      {"brand": "Ritchey", "model": "Classic Streem", "type": "drop", "material": "alloy", "width": "42cm"},
+      {"brand": "3T", "model": "Ergonova Team", "type": "drop", "material": "alloy", "width": "44cm"},
+      {"brand": "Zipp", "model": "Service Course SL", "type": "drop", "material": "alloy", "width": "40cm"},
+      {"brand": "ENVE", "model": "Compact Drop", "type": "drop", "material": "carbon", "width": "42cm"}
+    ],
+    "mountain": [
+      {"brand": "Race Face", "model": "Aeffect R", "type": "flat", "material": "alloy", "width": "780mm"},
+      {"brand": "Renthal", "model": "Fatbar Lite", "type": "flat", "material": "carbon", "width": "760mm"},
+      {"brand": "Spank", "model": "Spike 800 Vibrocore", "type": "flat", "material": "alloy", "width": "800mm"},
+      {"brand": "Easton", "model": "Haven", "type": "flat", "material": "alloy", "width": "750mm"}
+    ],
+    "city": [
+      {"brand": "Velo Orange", "model": "Klunker", "type": "flat", "material": "alloy", "width": "660mm"},
+      {"brand": "Origin8", "model": "Space Off Road", "type": "flat", "material": "alloy", "width": "680mm"}
+    ]
+  },
+  "pedals": [
+    {"brand": "Shimano", "model": "PD-R7000", "type": "clipless_road", "system": "SPD-SL"},
+    {"brand": "Look", "model": "Keo Classic 3", "type": "clipless_road", "system": "Keo"},
+    {"brand": "Shimano", "model": "PD-M8020", "type": "clipless_mtb", "system": "SPD"},
+    {"brand": "Crankbrothers", "model": "Candy 7", "type": "clipless_mtb", "system": "Eggbeater"},
+    {"brand": "MKS", "model": "Sylvan Touring", "type": "platform", "system": "flat"},
+    {"brand": "VP", "model": "Components 565", "type": "platform", "system": "flat"}
+  ],
+  "upgrade_categories": [
+    "wheels", "tires", "drivetrain", "brakes", "suspension", "cockpit",
+    "seatpost", "saddle", "pedals", "accessories", "electronics"
+  ]
+}

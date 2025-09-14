@@ -1,0 +1,66 @@
+[
+  {
+    "id": 56,
+    "name": "Black",
+    "code": "#111827",
+    "type": "color",
+    "description": "Black - Premium bicycle color option (#111827)",
+    "hex_code": "#111827"
+  },
+  {
+    "id": 57,
+    "name": "White",
+    "code": "#FFFFFF",
+    "type": "color",
+    "description": "White - Premium bicycle color option (#FFFFFF)",
+    "hex_code": "#FFFFFF"
+  },
+  {
+    "id": 58,
+    "name": "Gray",
+    "code": "#D1D5DB",
+    "type": "color",
+    "description": "Gray - Premium bicycle color option (#D1D5DB)",
+    "hex_code": "#D1D5DB"
+  },
+  {
+    "id": 59,
+    "name": "Red",
+    "code": "#EF4444",
+    "type": "color",
+    "description": "Red - Premium bicycle color option (#EF4444)",
+    "hex_code": "#EF4444"
+  },
+  {
+    "id": 60,
+    "name": "Green",
+    "code": "#80BE70",
+    "type": "color",
+    "description": "Green - Premium bicycle color option (#80BE70)",
+    "hex_code": "#80BE70"
+  },
+  {
+    "id": 61,
+    "name": "Orange",
+    "code": "#F59E0B",
+    "type": "color",
+    "description": "Orange - Premium bicycle color option (#F59E0B)",
+    "hex_code": "#F59E0B"
+  },
+  {
+    "id": 62,
+    "name": "Blue",
+    "code": "#3B82F6",
+    "type": "color",
+    "description": "Blue - Premium bicycle color option (#3B82F6)",
+    "hex_code": "#3B82F6"
+  },
+  {
+    "id": 63,
+    "name": "Purple",
+    "code": "#9A2DF0",
+    "type": "color",
+    "description": "Purple - Premium bicycle color option (#9A2DF0)",
+    "hex_code": "#9A2DF0"
+  }
+]

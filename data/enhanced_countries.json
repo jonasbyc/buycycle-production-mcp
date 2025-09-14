@@ -1,0 +1,198 @@
+[
+  {
+    "id": 161,
+    "name": "Austria",
+    "description": "Austria - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 146,
+    "name": "Belgium",
+    "description": "Belgium - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 162,
+    "name": "Bulgaria",
+    "description": "Bulgaria - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 143,
+    "name": "Croatia",
+    "description": "Croatia - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 137,
+    "name": "Czech Republic",
+    "description": "Czech Republic - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 148,
+    "name": "Denmark",
+    "description": "Denmark - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 131,
+    "name": "Estonia",
+    "description": "Estonia - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 163,
+    "name": "Finland",
+    "description": "Finland - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 151,
+    "name": "France",
+    "description": "France - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 150,
+    "name": "Germany",
+    "description": "Germany - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 144,
+    "name": "Greece",
+    "description": "Greece - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 122,
+    "name": "Hungary",
+    "description": "Hungary - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 145,
+    "name": "Ireland",
+    "description": "Ireland - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 152,
+    "name": "Italy",
+    "description": "Italy - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 132,
+    "name": "Latvia",
+    "description": "Latvia - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 133,
+    "name": "Lithuania",
+    "description": "Lithuania - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 153,
+    "name": "Luxembourg",
+    "description": "Luxembourg - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 125,
+    "name": "Monaco",
+    "description": "Monaco - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 142,
+    "name": "Netherlands",
+    "description": "Netherlands - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 155,
+    "name": "Poland",
+    "description": "Poland - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 154,
+    "name": "Portugal",
+    "description": "Portugal - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 127,
+    "name": "Romania",
+    "description": "Romania - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 138,
+    "name": "Slovakia",
+    "description": "Slovakia - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 136,
+    "name": "Slovenia",
+    "description": "Slovenia - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 156,
+    "name": "Spain",
+    "description": "Spain - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 129,
+    "name": "Sweden",
+    "description": "Sweden - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 130,
+    "name": "Switzerland",
+    "description": "Switzerland - Supported shipping destination",
+    "currency": "EUR",
+    "shipping_available": true
+  },
+  {
+    "id": 168,
+    "name": "United States",
+    "description": "United States - Supported shipping destination",
+    "currency": "USD",
+    "shipping_available": true
+  }
+]

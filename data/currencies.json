@@ -1,0 +1,30 @@
+[
+  {
+    "code": "EUR",
+    "name": "Euro",
+    "symbol": "€",
+    "countries": ["DE", "AT", "NL", "BE", "FR", "IT", "ES"],
+    "payment_methods": ["bank_transfer", "paypal", "credit_card", "klarna"]
+  },
+  {
+    "code": "CHF",
+    "name": "Swiss Franc",
+    "symbol": "CHF",
+    "countries": ["CH"],
+    "payment_methods": ["bank_transfer", "paypal", "credit_card"]
+  },
+  {
+    "code": "GBP",
+    "name": "British Pound",
+    "symbol": "£",
+    "countries": ["GB"],
+    "payment_methods": ["bank_transfer", "paypal", "credit_card"]
+  },
+  {
+    "code": "USD",
+    "name": "US Dollar",
+    "symbol": "$",
+    "countries": ["US"],
+    "payment_methods": ["bank_transfer", "paypal", "credit_card", "venmo", "zelle"]
+  }
+]

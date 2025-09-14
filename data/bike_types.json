@@ -1,0 +1,58 @@
+{
+  "road": {
+    "id": "road",
+    "name": "Road Bike",
+    "description": "Lightweight bikes designed for paved surfaces and speed",
+    "category": "performance",
+    "typical_features": ["drop_bars", "narrow_tires", "lightweight_frame"]
+  },
+  "mountain": {
+    "id": "mountain",
+    "name": "Mountain Bike",
+    "description": "Rugged bikes designed for off-road terrain",
+    "category": "off_road",
+    "typical_features": ["suspension", "wide_tires", "sturdy_frame"]
+  },
+  "e_bike": {
+    "id": "e_bike",
+    "name": "Electric Bike",
+    "description": "Bikes with electric motor assistance",
+    "category": "electric",
+    "typical_features": ["motor", "battery", "display_unit"]
+  },
+  "gravel": {
+    "id": "gravel",
+    "name": "Gravel Bike",
+    "description": "Versatile bikes for mixed terrain riding",
+    "category": "adventure",
+    "typical_features": ["drop_bars", "wide_tires", "disc_brakes"]
+  },
+  "city": {
+    "id": "city",
+    "name": "City Bike",
+    "description": "Comfortable bikes for urban commuting",
+    "category": "commuter",
+    "typical_features": ["upright_position", "fenders", "lights"]
+  },
+  "hybrid": {
+    "id": "hybrid",
+    "name": "Hybrid Bike",
+    "description": "Mix of road and mountain bike features",
+    "category": "versatile",
+    "typical_features": ["flat_bars", "medium_tires", "comfortable_geometry"]
+  },
+  "bmx": {
+    "id": "bmx",
+    "name": "BMX",
+    "description": "Small bikes designed for tricks and racing",
+    "category": "sport",
+    "typical_features": ["small_frame", "single_speed", "sturdy_build"]
+  },
+  "touring": {
+    "id": "touring",
+    "name": "Touring Bike",
+    "description": "Bikes designed for long-distance travel with cargo",
+    "category": "adventure",
+    "typical_features": ["steel_frame", "rack_mounts", "comfortable_geometry"]
+  }
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "id": 1,
+    "size": "42",
+    "front_size": "42",
+    "type": "numeric",
+    "description": "Frame size 42cm - Numeric sizing"
+  },
+  {
+    "id": 2,
+    "size": "43",
+    "front_size": "43",
+    "type": "numeric",
+    "description": "Frame size 43cm - Numeric sizing"
+  },
+  {
+    "id": 3,
+    "size": "44",
+    "front_size": "44",
+    "type": "numeric",
+    "description": "Frame size 44cm - Numeric sizing"
+  },
+  {
+    "id": 4,
+    "size": "45",
+    "front_size": "45",
+    "type": "numeric",
+    "description": "Frame size 45cm - Numeric sizing"
+  },
+  {
+    "id": 5,
+    "size": "46",
+    "front_size": "46",
+    "type": "numeric",
+    "description": "Frame size 46cm - Numeric sizing"
+  },
+  {
+    "id": 6,
+    "size": "47",
+    "front_size": "47",
+    "type": "numeric",
+    "description": "Frame size 47cm - Numeric sizing"
+  },
+  {
+    "id": 7,
+    "size": "48",
+    "front_size": "48",
+    "type": "numeric",
+    "description": "Frame size 48cm - Numeric sizing"
+  },
+  {
+    "id": 8,
+    "size": "49",
+    "front_size": "49",
+    "type": "numeric",
+    "description": "Frame size 49cm - Numeric sizing"
+  },
+  {
+    "id": 9,
+    "size": "50",
+    "front_size": "50",
+    "type": "numeric",
+    "description": "Frame size 50cm - Numeric sizing"
+  },
+  {
+    "id": 10,
+    "size": "51",
+    "front_size": "51",
+    "type": "numeric",
+    "description": "Frame size 51cm - Numeric sizing"
+  },
+  {
+    "id": 11,
+    "size": "52",
+    "front_size": "52",
+    "type": "numeric",
+    "description": "Frame size 52cm - Numeric sizing"
+  },
+  {
+    "id": 12,
+    "size": "53",
+    "front_size": "53",
+    "type": "numeric",
+    "description": "Frame size 53cm - Numeric sizing"
+  },
+  {
+    "id": 13,
+    "size": "54",
+    "front_size": "54",
+    "type": "numeric",
+    "description": "Frame size 54cm - Numeric sizing"
+  },
+  {
+    "id": 14,
+    "size": "55",
+    "front_size": "55",
+    "type": "numeric",
+    "description": "Frame size 55cm - Numeric sizing"
+  },
+  {
+    "id": 15,
+    "size": "56",
+    "front_size": "56",
+    "type": "numeric",
+    "description": "Frame size 56cm - Numeric sizing"
+  },
+  {
+    "id": 16,
+    "size": "57",
+    "front_size": "57",
+    "type": "numeric",
+    "description": "Frame size 57cm - Numeric sizing"
+  },
+  {
+    "id": 17,
+    "size": "58",
+    "front_size": "58",
+    "type": "numeric",
+    "description": "Frame size 58cm - Numeric sizing"
+  },
+  {
+    "id": 18,
+    "size": "59",
+    "front_size": "59",
+    "type": "numeric",
+    "description": "Frame size 59cm - Numeric sizing"
+  },
+  {
+    "id": 19,
+    "size": "60",
+    "front_size": "60",
+    "type": "numeric",
+    "description": "Frame size 60cm - Numeric sizing"
+  },
+  {
+    "id": 20,
+    "size": "61",
+    "front_size": "61",
+    "type": "numeric",
+    "description": "Frame size 61cm - Numeric sizing"
+  },
+  {
+    "id": 21,
+    "size": "62",
+    "front_size": "62",
+    "type": "numeric",
+    "description": "Frame size 62cm - Numeric sizing"
+  },
+  {
+    "id": 22,
+    "size": "63",
+    "front_size": "63",
+    "type": "numeric",
+    "description": "Frame size 63cm - Numeric sizing"
+  },
+  {
+    "id": 23,
+    "size": "64",
+    "front_size": "64",
+    "type": "numeric",
+    "description": "Frame size 64cm - Numeric sizing"
+  },
+  {
+    "id": 24,
+    "size": "xxxs",
+    "front_size": "XXXS",
+    "type": "letter",
+    "description": "Size XXXS - Letter sizing system"
+  },
+  {
+    "id": 25,
+    "size": "xxs",
+    "front_size": "XXS",
+    "type": "letter",
+    "description": "Size XXS - Letter sizing system"
+  },
+  {
+    "id": 26,
+    "size": "xs",
+    "front_size": "XS",
+    "type": "letter",
+    "description": "Size XS - Letter sizing system"
+  },
+  {
+    "id": 27,
+    "size": "s",
+    "front_size": "S",
+    "type": "letter",
+    "description": "Size S - Letter sizing system"
+  },
+  {
+    "id": 28,
+    "size": "m",
+    "front_size": "M",
+    "type": "letter",
+    "description": "Size M - Letter sizing system"
+  },
+  {
+    "id": 29,
+    "size": "l",
+    "front_size": "L",
+    "type": "letter",
+    "description": "Size L - Letter sizing system"
+  },
+  {
+    "id": 30,
+    "size": "xl",
+    "front_size": "XL",
+    "type": "letter",
+    "description": "Size XL - Letter sizing system"
+  },
+  {
+    "id": 31,
+    "size": "xxl",
+    "front_size": "XXL",
+    "type": "letter",
+    "description": "Size XXL - Letter sizing system"
+  },
+  {
+    "id": 32,
+    "size": "xxxl",
+    "front_size": "XXXL",
+    "type": "letter",
+    "description": "Size XXXL - Letter sizing system"
+  }
+]
