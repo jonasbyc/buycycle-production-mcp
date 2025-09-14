@@ -1046,18 +1046,12 @@ Total components: {len(bike_data['components'])}
 # Export the FastMCP instance for FastMCP Cloud
 server = mcp
 
+def main():
+    """Entry point for local development"""
+    mcp.run(transport="stdio")
+
 if __name__ == "__main__":
-    import asyncio
-    import sys
-    try:
-        # Check if we're already in an event loop (Lambda/serverless environment)
-        loop = asyncio.get_running_loop()
-        logger.info("Running in existing event loop (serverless environment)")
-        # Don't start another event loop in serverless
-    except RuntimeError:
-        # No event loop running, start normally
-        if len(sys.argv) > 1 and sys.argv[1] == "--stdio":
-            mcp.run(transport="stdio")
-        else:
-            # Default to stdio for local testing
-            mcp.run(transport="stdio")
+    import os
+    # Only run the server if not in serverless environment
+    if not os.environ.get('AWS_LAMBDA_FUNCTION_NAME') and not os.environ.get('VERCEL') and not os.environ.get('NETLIFY'):
+        main()
